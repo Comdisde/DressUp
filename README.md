@@ -10,3 +10,5 @@ DeepUp es un algoritmo el cual tiene el fin de vestir a una persona con otro tip
 
 * Unet (modelo de segmentación)
 * Pix2Pix 
+
+![alt text][img/diagrama_unet_deepup.png]
