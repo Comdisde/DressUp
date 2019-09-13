@@ -13,6 +13,24 @@ DeepUp es un algoritmo el cual tiene el fin de vestir a una persona con otro tip
 
 ![Diagrama Unet](img/diagrama_unet_deepup.png)
 
+La segmentación generada por nuestra primera Unet es coloreada de acuerdo a la prenda que queremos sustituir. 
+
+
+```Ruby
+clothes_to_change={'playera_gris/playera_blanca': (255, 0, 0),
+                    'playera_negra/playera_azul': (0, 255, 0),
+                    'playera_rayas': (0, 0, 255),
+                    'pantalon_negro': (0, 255, 255),
+                    'sudadera_azul': (255, 255, 0),
+                    'playera_tigre': (255, 0, 255)}            
+```
+
+En este caso seleccionamos el color azul, el cual corresponde a _"playera_rayas"_. Esta imagen es suministrada a la Unet-generadora para generar la imagen que reemplazaremos.
+
+
+
+El output final es el siguiente:
+
 <p align="center">
-<img src="img/diagrama_pix2pix_vertical.png" height="800" align="center">
+<img src="img/diagrama_pix2pix_vertical.png" height="820" align="center">
 </p>
