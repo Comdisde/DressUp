@@ -12,5 +12,5 @@ DeepUp es un algoritmo el cual tiene el fin de vestir a una persona con otro tip
 * Pix2Pix 
 
 ![Diagrama Unet](img/diagrama_unet_deepup.png)
-![Diagrama Pix2Pix]( | width=100)
-<img src="img/diagrama_pix2pix_vertical.png" height="24">
+
+<center><img src="img/diagrama_pix2pix_vertical.png" height="500"><\center>
