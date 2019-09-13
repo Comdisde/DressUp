@@ -13,4 +13,6 @@ DeepUp es un algoritmo el cual tiene el fin de vestir a una persona con otro tip
 
 ![Diagrama Unet](img/diagrama_unet_deepup.png)
 
+<p align="center">
 <img src="img/diagrama_pix2pix_vertical.png" height="1080" align="center">
+</p>
