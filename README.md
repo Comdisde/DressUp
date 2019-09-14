@@ -32,5 +32,7 @@ En este caso seleccionamos el color azul, el cual corresponde a _"playera_rayas"
 El output final es el siguiente:
 
 <p align="center">
-<img src="img/diagrama_pix2pix_vertical.png" height="820" align="center">
+<img src="img/diagrama_pix2pix_vertical.png" height="820" >
 </p>
+
+Existen al rededor de 6 prendas soportadas
