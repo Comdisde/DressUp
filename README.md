@@ -11,7 +11,7 @@ DressUp es un algoritmo el cual tiene el fin de vestir a una persona con otro ti
 * Unet (modelo de segmentación)
 * Pix2Pix 
 
-![Diagrama Unet](img/diagrama_unet_deepup.png)
+![Diagrama Unet](img/diagrama_unet.png)
 
 La segmentación generada por nuestra primera Unet es coloreada de acuerdo a la prenda que queremos sustituir. 
 
