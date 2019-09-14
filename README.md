@@ -46,6 +46,9 @@ El algoritmo cuenta soportada 6 prendas hasta el momento:
 
 
 ## Getting Started
+
+* Para poder contar con los pesos correspondientes es necesario descargarlos [aquí](https://mega.nz/#!kBonCSoa!4AbdnOmgY5Pfk4IhivdD4o6TiVHWomClOwABEsSB_X8), posterior a esto se descomprime el archivo dentro de la carpeta _data_ del repositorio
+
 * [DressUp_Demo.ipynb](notebooks/DressUp_Demo.ipynb)  Es la forma más fácil de comenzar. Muestra un ejemplo del uso de un modelo previamente entrenado para segmentar prendas y reemplazarlas en sus propias imágenes.
 Incluye código para ejecutar la detección de estas y su reemplazo.
 
