@@ -74,3 +74,6 @@ Para el entrenamiento de la primera arquitectura se optó por utilizar un datase
 * _Clothing Co-Parsing_ (https://github.com/bearpaw/clothing-co-parsing)
 * _LookBook dataset_ (https://dgyoo.github.io)
 * _Applications of GANS_ https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900
+
+
+Nota: Para más detalles aqui [DressUp.pdf](docs/DressUp.pdf)
