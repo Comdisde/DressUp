@@ -53,9 +53,9 @@ El algoritmo cuenta soportada 6 prendas hasta el momento:
 
 ## Data
 
-Para el entrenamiento de la primera arquitectura se optó por utilizar un dataset con una gran variedad de imagenes  _fashion 144k dataset_ (https://esslab.jp/~ess/en/research/fashionability/) y para el caso del segundo modelo era necesario contar con un imágenes de una misma prenda  para ello fue de gran ayuda  _LookBook dataset_ (https://dgyoo.github.io), el cual cuenta con diversas fotografias de una misma prenda.
+Para el entrenamiento de la primera arquitectura se optó por utilizar un dataset con una gran variedad de imagenes  _Clothing Co-Parsing _ (https://github.com/bearpaw/clothing-co-parsing) y para el caso del segundo modelo era necesario contar con un imágenes de una misma prenda  para ello fue de gran ayuda  _LookBook dataset_ (https://dgyoo.github.io), el cual cuenta con diversas fotografias de una misma prenda.
 
 ## Reference
-* _fashion 144k dataset_ (https://esslab.jp/~ess/en/research/fashionability/)
+* _Clothing Co-Parsing_ (https://github.com/bearpaw/clothing-co-parsing)
 * _LookBook dataset_ (https://dgyoo.github.io)
 * _Applications of GANS_ https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900
