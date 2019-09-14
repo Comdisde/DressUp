@@ -46,10 +46,10 @@ El algoritmo cuenta soportada 6 prendas hasta el momento:
 
 
 ## Getting Started
-* [DressUp Demo.ipynb](notebooks/DressUp Demo.ipynb)  Es la forma más fácil de comenzar. Muestra un ejemplo del uso de un modelo previamente entrenado para segmentar prendas y reemplazarlas en sus propias imágenes.
+* [DressUp_Demo.ipynb](notebooks/DressUp_Demo.ipynb)  Es la forma más fácil de comenzar. Muestra un ejemplo del uso de un modelo previamente entrenado para segmentar prendas y reemplazarlas en sus propias imágenes.
 Incluye código para ejecutar la detección de estas y su reemplazo.
 
-* [Pix2Pix Model Training.ipynb](notebooks/Pix2Pix/Pix2Pix Model Training) Muestra cómo se entrenó a Dress Up. Este cuaderno presenta el  conjunto de datos usado, cual puede ser reemplazado por otra prenda.
+* [Pix2Pix_Model_Training.ipynb](notebooks/Pix2Pix/Pix2Pix_Model_Training) Muestra cómo se entrenó a Dress Up. Este cuaderno presenta el  conjunto de datos usado, cual puede ser reemplazado por otra prenda.
 
 
 ## Training
