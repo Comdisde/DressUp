@@ -45,6 +45,13 @@ El algoritmo cuenta soportada 6 prendas hasta el momento:
 </p>
 
 
+## Getting Started
+* [Demo.ipynb](notebooks/demo.ipynb)  Es la forma más fácil de comenzar. Muestra un ejemplo del uso de un modelo previamente entrenado para segmentar prendas y reemplazarlas en sus propias imágenes.
+Incluye código para ejecutar la detección de estas y su reemplazo.
+
+* [training.ipynb](notebooks/training.ipynb) Muestra cómo se entrenó a Dress Up. Este cuaderno presenta el  conjunto de datos usado, cual puede ser reemplazado por otra prenda.
+
+
 ## Training
 
 <p align="center">
@@ -54,6 +61,9 @@ El algoritmo cuenta soportada 6 prendas hasta el momento:
 ## Data
 
 Para el entrenamiento de la primera arquitectura se optó por utilizar un dataset con una gran variedad de imagenes  _Clothing Co-Parsing _ (https://github.com/bearpaw/clothing-co-parsing) y para el caso del segundo modelo era necesario contar con un imágenes de una misma prenda  para ello fue de gran ayuda  _LookBook dataset_ (https://dgyoo.github.io), el cual cuenta con diversas fotografias de una misma prenda.
+
+## Considerations
+El modelo de segmentación fue entrenado con imagenes que contaban con una sola persona mirando de frente de cuerpo completo, por este motivo las imagénes deben ser suministradas de esa manera.
 
 ## Reference
 * _Clothing Co-Parsing_ (https://github.com/bearpaw/clothing-co-parsing)
