@@ -1,4 +1,4 @@
-# DeepUp
+# DressUp
 ![cvmod](https://img.shields.io/static/v1.svg?label=version&message=v1.0&color=green)  ![python](https://img.shields.io/static/v1.svg?label=python&message=3.6&color=blue)
 
 Proyecto desarrollado para participar en el "Reto DotCSV"
@@ -6,7 +6,7 @@ Proyecto desarrollado para participar en el "Reto DotCSV"
 
 ## Overview
 
-DeepUp es un algoritmo el cual tiene el fin de vestir a una persona con otro tipo de prenda (_"Dress Up"_).  Este consta de 2 arquitecturas de redes neuronales profundas.  
+DressUp es un algoritmo el cual tiene el fin de vestir a una persona con otro tipo de prenda.  Este consta de 2 arquitecturas de redes neuronales profundas.  
 
 * Unet (modelo de segmentación)
 * Pix2Pix 
