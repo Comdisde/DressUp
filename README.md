@@ -25,14 +25,36 @@ clothes_to_change={'playera_gris/playera_blanca': (255, 0, 0),
                     'playera_tigre': (255, 0, 255)}            
 ```
 
-En este caso seleccionamos el color azul, el cual corresponde a _"playera_rayas"_. Esta imagen es suministrada a la Unet-generadora para generar la imagen que reemplazaremos.
+En este caso seleccionamos el color azul, el cual corresponde a _"playera_rayas"_. Esta imagen es suministrada a la Unet-generadora para producir la prenda que reemplazaremos.
 
-
-
-El output final es el siguiente:
 
 <p align="center">
 <img src="img/generator_pix2pix.png">
 </p>
 
-Existen al rededor de 6 prendas soportadas
+
+
+El output final es el siguiente:
+<p align="center">
+<img src="img/output_final.png" height="300">
+</p>
+
+El algoritmo cuenta soportada 6 prendas hasta el momento:
+<p align="center">
+<img src="img/Prendas soportadas.png" height="150">
+</p>
+
+
+## Training
+
+<p align="center">
+<img src="img/epochs_training.png" height="200">
+</p>
+
+## Data
+
+Para el entrenamiento de la primera arquitectura se optó por utilizar un dataset con una gran variedad de imagenes  _fashion 144k dataset_ (https://esslab.jp/~ess/en/research/fashionability/) y para el caso del segundo modelo era necesario contar con un imágenes de una misma prenda  para ello fue de gran ayuda  _LookBook dataset_ (https://dgyoo.github.io), el cual cuenta con diversas fotografias de una misma prenda.
+
+## Reference
+_fashion 144k dataset_ (https://esslab.jp/~ess/en/research/fashionability/)
+_LookBook dataset_ (https://dgyoo.github.io)
