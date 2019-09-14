@@ -60,10 +60,12 @@ Incluye código para ejecutar la detección de estas y su reemplazo.
 
 ## Data
 
-Para el entrenamiento de la primera arquitectura se optó por utilizar un dataset con una gran variedad de imagenes  _Clothing Co-Parsing _ (https://github.com/bearpaw/clothing-co-parsing) y para el caso del segundo modelo era necesario contar con un imágenes de una misma prenda  para ello fue de gran ayuda  _LookBook dataset_ (https://dgyoo.github.io), el cual cuenta con diversas fotografias de una misma prenda.
+Para el entrenamiento de la primera arquitectura se optó por utilizar un dataset con una gran variedad de imagenes  _Clothing Co-Parsing _ (https://github.com/bearpaw/clothing-co-parsing) y para el caso del segundo modelo era necesario contar con un imágenes de una misma prenda  para ello fue de gran ayuda  _LookBook dataset_ (https://dgyoo.github.io), el cual cuenta con diversas fotografias de una misma prenda, la desventaja de este dataset es que no cuenta con imágenes etiquetadas.
 
 ## Considerations
-El modelo de segmentación fue entrenado con imagenes que contaban con una sola persona mirando de frente de cuerpo completo, por este motivo las imagénes deben ser suministradas de esa manera.
+*El modelo de segmentación fue entrenado con imágenes que contaban con diversas características: una sola persona mirando de frente de cuerpo completo, si se desea un desempeño óptimo  con estas consideraciones.
+
+*Para un resultado más realista es necesario mayor número de imágenes y por ende mayor etiquetado.
 
 ## Reference
 * _Clothing Co-Parsing_ (https://github.com/bearpaw/clothing-co-parsing)
